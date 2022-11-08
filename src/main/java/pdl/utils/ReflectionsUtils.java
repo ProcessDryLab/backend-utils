@@ -8,7 +8,7 @@ public class ReflectionsUtils {
 
 	public static Reflections get() {
 		if (instance == null) {
-			instance = new Reflections("pdl.repository");
+			instance = new Reflections("pdl");
 		}
 		return instance;
 	}
