@@ -58,7 +58,7 @@ public abstract class IType {
 
 	public Collection<VisualizationType> getVisualizationTypes() {
 		Set<VisualizationType> visualizations = new HashSet<>();
-		Reflections reflections = new Reflections("pdl.repository.visualizers");
+		Reflections reflections = new Reflections("pdl");
 		for (Class<?> clazz : reflections.getTypesAnnotatedWith(Visualizer.class)) {
 			Visualizer v = clazz.getAnnotation(Visualizer.class);
 			if (this.getClass().equals(v.inputType())) {
