@@ -1,4 +1,4 @@
-package pdl.repository.web.models;
+package pdl.web.models;
 
 import java.util.Date;
 import java.util.UUID;

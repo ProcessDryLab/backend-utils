@@ -1,4 +1,4 @@
-package pdl.repository.web.models;
+package pdl.web.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

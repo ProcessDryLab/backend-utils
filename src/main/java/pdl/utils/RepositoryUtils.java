@@ -1,4 +1,4 @@
-package pdl.repository.utils;
+package pdl.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.impl.client.HttpClientBuilder;
 
-import pdl.repository.web.models.Resource;
+import pdl.web.models.Resource;
 
 public class RepositoryUtils {
 

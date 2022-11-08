@@ -1,14 +1,14 @@
-package pdl.repository.visualizers;
+package pdl.visualizers;
 
 import java.io.File;
 
 import org.reflections.Reflections;
 
-import pdl.repository.annotations.Visualizer;
-import pdl.repository.types.IType;
-import pdl.repository.utils.ReflectionsUtils;
-import pdl.repository.web.models.Resource;
-import pdl.repository.web.models.ResourceType;
+import pdl.annotations.Visualizer;
+import pdl.types.IType;
+import pdl.utils.ReflectionsUtils;
+import pdl.web.models.Resource;
+import pdl.web.models.ResourceType;
 
 public interface IVisualizer {
 	public String getVisualization(Resource resourceDescription, File contentFile);

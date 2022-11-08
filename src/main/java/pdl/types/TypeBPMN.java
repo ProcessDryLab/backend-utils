@@ -1,6 +1,6 @@
-package pdl.repository.types;
+package pdl.types;
 
-import pdl.repository.web.models.ResourceType;
+import pdl.web.models.ResourceType;
 
 public class TypeBPMN extends IType {
 

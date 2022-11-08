@@ -1,4 +1,4 @@
-package pdl.repository.types;
+package pdl.types;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -7,10 +7,10 @@ import java.util.Set;
 import org.reflections.Reflections;
 
 import lombok.EqualsAndHashCode;
-import pdl.repository.annotations.Visualizer;
-import pdl.repository.utils.ReflectionsUtils;
-import pdl.repository.web.models.ResourceType;
-import pdl.repository.web.models.VisualizationType;
+import pdl.annotations.Visualizer;
+import pdl.utils.ReflectionsUtils;
+import pdl.web.models.ResourceType;
+import pdl.web.models.VisualizationType;
 
 @EqualsAndHashCode
 public abstract class IType {
